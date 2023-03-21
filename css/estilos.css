@@ -623,7 +623,7 @@ h3 {
   background-size: 100% 100%;
 }
 
-@media (min-width: 1200px) and (max-width: 3000px) {
+@media (min-width: 2000px) and (max-width: 5000px) {
   .container {
     width: 90%;
   }
@@ -631,7 +631,7 @@ h3 {
     margin-bottom: 80px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 2000px) {
   .container {
     width: 90%;
   }
@@ -640,6 +640,20 @@ h3 {
   }
   h2 h3 p {
     width: 80%;
+  }
+  .btn-cta {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 80%;
+  }
+  h1 ul li a {
+    width: 60%;
+  }
+  h2 h3 p {
+    width: 90%;
   }
   .btn-cta {
     margin-bottom: 80px;
@@ -776,6 +790,15 @@ body.nosotros {
 }
 
 /* -- Pagina nosotros mediaquery --*/
+@media (min-width: 2000px) and (max-width: 5000px) {
+  .container1 {
+    width: 80%;
+  }
+  footer {
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+}
 @media (min-width: 1200px) and (max-width: 5000px) {
   .container1 {
     width: 90%;
@@ -869,7 +892,7 @@ body.nosotros {
   footer.nosot {
     margin-top: 50px;
   }
-  footer.nosot .noso.pienos {
+  footer.nosot.noso.pienos {
     width: 100%;
     font-size: 16px;
   }
@@ -930,13 +953,16 @@ body.perro {
 
 /* -- Pagina perros mediaquery --*/
 @media (max-width: 5000px) {
+  .container2 {
+    width: 80%;
+  }
+  .firulais {
+    width: 90%;
+  }
   main h2.perrotitulo {
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
-  }
-  main {
-    margin-bottom: 100px;
   }
 }
 @media (max-width: 2000px) {
@@ -951,10 +977,6 @@ body.perro {
     width: 90%;
     margin: 10px;
   }
-  .card {
-    width: 350px;
-    height: 450px;
-  }
   .card-title {
     font-size: 32px;
   }
@@ -965,9 +987,6 @@ body.perro {
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
-  }
-  main {
-    margin-bottom: 100px;
   }
   footer {
     margin-top: 0px;
@@ -988,10 +1007,6 @@ body.perro {
     width: 90%;
     margin: 10px;
   }
-  .card {
-    width: 250px;
-    height: 350px;
-  }
   .card-title {
     font-size: 24px;
   }
@@ -1001,13 +1016,6 @@ body.perro {
   main h2.perrotitulo {
     font-size: 32px;
     text-align: center;
-  }
-  main {
-    margin-bottom: 100px;
-  }
-  .card {
-    width: 300px;
-    height: 400px;
   }
   footer {
     margin-top: 0px;
@@ -1028,10 +1036,6 @@ body.perro {
     width: 90%;
     margin: 10px;
   }
-  .card {
-    width: 250px;
-    height: 350px;
-  }
   .card-title {
     font-size: 24px;
   }
@@ -1041,13 +1045,6 @@ body.perro {
   main h2.perrotitulo {
     font-size: 24px;
     text-align: center;
-  }
-  main {
-    margin-bottom: 100px;
-  }
-  .card {
-    width: 250px;
-    height: 350px;
   }
   footer {
     margin-top: 0px;
@@ -1058,19 +1055,15 @@ body.perro {
   .container2 {
     width: 90%;
   }
+  .firulais {
+    width: 90%;
+    margin: 10px;
+  }
   h1 ul li a {
     width: 60%;
   }
   h2 h3 p {
     width: 80%;
-  }
-  .firulais {
-    width: 90%;
-    margin: 10px;
-  }
-  .card {
-    width: 250px;
-    height: 350px;
   }
   .card-title {
     font-size: 24px;
@@ -1082,9 +1075,6 @@ body.perro {
     font-size: 16px;
     text-align: center;
   }
-  main {
-    margin-bottom: 100px;
-  }
   footer {
     margin-top: 50px;
   }
@@ -1093,6 +1083,10 @@ body.perro {
   .container2 {
     width: 80%;
   }
+  .firulais {
+    width: 80%;
+    margin: 10px;
+  }
   nav ul li a {
     width: 90%;
     font-size: 8px;
@@ -1100,14 +1094,6 @@ body.perro {
   }
   h2 h3 p {
     width: 80%;
-  }
-  .firulais {
-    width: 80%;
-    margin: 10px;
-  }
-  .card {
-    width: 200px;
-    height: 200px;
   }
   .card-title {
     font-size: 16px;
@@ -1125,7 +1111,7 @@ body.perro {
   footer {
     width: 80%;
   }
-  .footpe.piepe {
+  footer.footpe.piepe {
     width: 100%;
     font-size: 8px;
   }
@@ -1185,49 +1171,45 @@ body.gato {
 }
 
 /* -- Pagina gatos mediaquery --*/
-@media (max-width: 5000px) {
-  main h2.gatotitulo {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 50px;
+@media (min-width: 2000px) and (max-width: 5000px) {
+  .container3 {
+    width: 80%;
   }
-  main {
-    margin-bottom: 100px;
+  .michis {
+    width: 90%;
+  }
+  main h2.gatotitulo {
+    margin-bottom: 80px;
+    font-size: 32px;
+    text-align: center;
+  }
+  .card {
+    width: 400px;
+    height: 480px;
   }
 }
 @media (max-width: 2000px) {
   .container3 {
-    width: 90%;
+    width: 80%;
   }
-  main h2.gatotitulo {
-    font-size: 40px;
-    text-align: center;
+  h1 ul li a {
+    width: 80%;
+  }
+  h2 h3 p {
+    width: 80%;
   }
   .michis {
     width: 90%;
     margin: 10px;
   }
-  .card {
-    width: 350px;
-    height: 450px;
-  }
-  .card-title {
-    font-size: 32px;
-  }
-  .card-text {
-    font-size: 24px;
-  }
   main h2.gatotitulo {
-    font-size: 40px;
+    margin-bottom: 80px;
+    font-size: 32px;
     text-align: center;
-    margin-bottom: 50px;
   }
-  main {
-    margin-bottom: 100px;
-  }
-  footer {
-    margin-top: 0px;
-    padding-top: 50px;
+  .card {
+    width: 300px;
+    height: 380px;
   }
 }
 @media (max-width: 1199px) {
@@ -1246,7 +1228,7 @@ body.gato {
   }
   .card {
     width: 250px;
-    height: 350px;
+    height: 310px;
   }
   .card-title {
     font-size: 24px;
@@ -1255,38 +1237,17 @@ body.gato {
     font-size: 16px;
   }
   main h2.gatotitulo {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
-  }
-  main {
-    margin-bottom: 100px;
-  }
-  .card {
-    width: 300px;
-    height: 400px;
-  }
-  footer {
-    margin-top: 0px;
-    padding-top: 50px;
   }
 }
 @media (max-width: 991.98px) {
   .container3 {
     width: 90%;
   }
-  h1 ul li a {
-    width: 60%;
-  }
-  h2 h3 p {
-    width: 80%;
-  }
   .michis {
     width: 90%;
     margin: 10px;
-  }
-  .card {
-    width: 250px;
-    height: 350px;
   }
   .card-title {
     font-size: 24px;
@@ -1298,16 +1259,9 @@ body.gato {
     font-size: 24px;
     text-align: center;
   }
-  main {
-    margin-bottom: 100px;
-  }
   .card {
-    width: 250px;
-    height: 350px;
-  }
-  footer {
-    margin-top: 0px;
-    padding-top: 50px;
+    width: 220px;
+    height: 320px;
   }
 }
 @media (max-width: 767.98px) {
@@ -1325,8 +1279,8 @@ body.gato {
     margin: 10px;
   }
   .card {
-    width: 250px;
-    height: 350px;
+    width: 180px;
+    height: 300px;
   }
   .card-title {
     font-size: 24px;
@@ -1334,15 +1288,12 @@ body.gato {
   .card-text {
     font-size: 16px;
   }
-  main h2.gatotitulo {
-    font-size: 16px;
-    text-align: center;
-  }
   main {
     margin-bottom: 100px;
   }
-  footer {
-    margin-top: 50px;
+  main h2.gatotitulo {
+    font-size: 24px;
+    text-align: center;
   }
 }
 @media (max-width: 575.98px) {
@@ -1358,12 +1309,12 @@ body.gato {
     width: 80%;
   }
   .michis {
-    width: 80%;
+    width: 100%;
     margin: 10px;
   }
   .card {
     width: 200px;
-    height: 200px;
+    height: 210px;
   }
   .card-title {
     font-size: 16px;
@@ -1371,19 +1322,19 @@ body.gato {
   .card-text {
     font-size: 8px;
   }
+  main {
+    margin-bottom: 100px;
+  }
   main h2.gatotitulo {
     font-size: 16px;
     text-align: center;
   }
-  main {
-    margin-bottom: 100px;
-  }
   footer {
-    width: 80%;
+    width: 90%;
   }
-  .footgat.piegat {
+  footer.footgat.piegat {
     width: 100%;
-    font-size: 8px;
+    font-size: 16px;
   }
 }
 * {
@@ -1418,57 +1369,47 @@ button {
   transition: 0.5s;
   overflow: hidden;
 }
-
 button:hover {
   color: #fff;
 }
-
 button span {
   position: absolute;
   background: #fff;
   transition: 0.5s;
 }
-
 button span:nth-child(1) {
   width: 100%;
   height: 1px;
   top: 0;
   left: -100%;
 }
-
 button span:nth-child(2) {
   width: 100%;
   height: 1px;
   bottom: 0;
   right: -100%;
 }
-
 button span:nth-child(3) {
   width: 1px;
   height: 100%;
   bottom: -100%;
   left: 0;
 }
-
 button span:nth-child(4) {
   width: 1px;
   height: 100%;
   top: -100%;
   right: 0;
 }
-
 button:hover span:nth-child(1) {
   left: 0;
 }
-
 button:hover span:nth-child(2) {
   right: 0;
 }
-
 button:hover span:nth-child(3) {
   bottom: 0;
 }
-
 button:hover span:nth-child(4) {
   top: 0;
 }
@@ -1476,10 +1417,23 @@ button:hover span:nth-child(4) {
 /* -- Pagina contacto mediaquery --*/
 @media (min-width: 2000px) and (max-width: 5000px) {
   .container4 {
-    width: 90%;
+    width: 70%;
+  }
+  h1 ul li a {
+    width: 80%;
+  }
+  h2 h3 p {
+    width: 80%;
+  }
+  main {
+    margin-bottom: 100px;
+  }
+  footer {
+    margin-top: 0px;
+    padding-top: 50px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 2000px) {
   .container4 {
     width: 90%;
   }
@@ -1488,6 +1442,27 @@ button:hover span:nth-child(4) {
   }
   h2 h3 p {
     width: 80%;
+  }
+  main {
+    margin-bottom: 100px;
+  }
+  footer {
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .container4 {
+    width: 80%;
+  }
+  h1 ul li a {
+    width: 80%;
+  }
+  h2 h3 p {
+    width: 80%;
+  }
+  main {
+    margin-bottom: 100px;
   }
   footer {
     margin-top: 0px;
@@ -1504,6 +1479,9 @@ button:hover span:nth-child(4) {
   h2 h3 p {
     width: 80%;
   }
+  main {
+    margin-bottom: 100px;
+  }
   footer {
     margin-top: 0px;
     padding-top: 50px;
@@ -1519,8 +1497,8 @@ button:hover span:nth-child(4) {
   h2 h3 p {
     width: 80%;
   }
-  footer {
-    margin-top: 50px;
+  main {
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 575.98px) {
@@ -1547,7 +1525,7 @@ button:hover span:nth-child(4) {
   footer {
     width: 99%;
   }
-  footer .footcont.piecont {
+  footer.footcont.piecont {
     width: 100%;
     font-size: 8px;
   }

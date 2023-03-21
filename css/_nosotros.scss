@@ -69,13 +69,22 @@ body.nosotros {
 
 /* -- Pagina nosotros mediaquery --*/
 
+@media (min-width: 2000px) and (max-width: 5000px) {
+    .container1 {
+        width: 80%;
+    }
+    footer {
+        margin-top: 0px;
+        padding-top: 50px;
+    } 
+}
 @media (min-width: 1200px) and (max-width: 5000px){
     .container1 {
         width: 90%;
     }
     footer {
-    margin-top: 0px;
-    padding-top: 50px;
+        margin-top: 0px;
+        padding-top: 50px;
     } 
 }
 
@@ -90,8 +99,8 @@ body.nosotros {
         width: 80%;
     }
     footer {
-    margin-top: 0px;
-    padding-top: 50px;
+        margin-top: 0px;
+        padding-top: 50px;
     } 
 }
 
@@ -106,8 +115,8 @@ body.nosotros {
         width: 80%;
     }
     footer {
-    margin-top: 0px;
-    padding-top: 50px;
+        margin-top: 0px;
+        padding-top: 50px;
     } 
 }
 
@@ -115,15 +124,15 @@ body.nosotros {
     .container1 {
         width: 80%;
     }
-    h1 ul li a {
+        h1 ul li a {
         width: 60%;
     }
-    h2 h3 p {
+        h2 h3 p {
         width: 80%;
     }
-    footer {
-    margin-top: 50px;
-} 
+        footer {
+        margin-top: 50px;
+    } 
 }
 
 @media (max-width: 575.98px) {
@@ -165,7 +174,7 @@ body.nosotros {
     }
     footer.nosot {
         margin-top: 50px;
-        .noso.pienos {
+        &.noso.pienos {
             width: 100%;
             font-size: size(2);
         }

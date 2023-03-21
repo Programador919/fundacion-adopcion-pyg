@@ -26,59 +26,97 @@ button {
     cursor: pointer;
     transition: .5s;
     overflow: hidden;
+
+    &:hover {color: #fff;}
+
+    & span {
+        position: absolute;
+        background: #fff;
+        transition: .5s;
+
+        &:nth-child(1) {
+            width: 100%;
+            height: 1px;
+            top: 0;
+            left: -100%;
+        }
+        &:nth-child(2) {
+            width: 100%;
+            height: 1px;
+            bottom: 0;
+            right: -100%;
+        }
+        &:nth-child(3) {
+            width: 1px;
+            height: 100%;
+            bottom: -100%;
+            left: 0;
+        }
+        &:nth-child(4) {
+            width: 1px;
+            height: 100%;
+            top: -100%;
+            right: 0;
+        }
+    }
+    &:hover span:nth-child(1) {left: 0;}
+    &:hover span:nth-child(2) {right: 0;}
+    &:hover span:nth-child(3) {bottom: 0;}
+    &:hover span:nth-child(4) {top: 0;}
 }
 
-button:hover {color: #fff;}
-button span {
-    position: absolute;
-    background: #fff;
-    transition: .5s;
-}
-button span:nth-child(1) {
-    width: 100%;
-    height: 1px;
-    top: 0;
-    left: -100%;
-}
-button span:nth-child(2) {
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    right: -100%;
-}
-button span:nth-child(3) {
-    width: 1px;
-    height: 100%;
-    bottom: -100%;
-    left: 0;
-}
-button span:nth-child(4) {
-    width: 1px;
-    height: 100%;
-    top: -100%;
-    right: 0;
-}
-button:hover span:nth-child(1) {left: 0;}
-button:hover span:nth-child(2) {right: 0;}
-button:hover span:nth-child(3) {bottom: 0;}
-button:hover span:nth-child(4) {top: 0;}
 
 /* -- Pagina contacto mediaquery --*/
 
-@media (min-width: 2000px) and (max-width: 5000px){
+@media (min-width: 2000px) and (max-width: 5000px) {
     .container4 {
-        width: 90%;
+        width: 70%;
     }
+    h1 ul li a {
+        width: 80%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    main {
+        margin-bottom: 100px;
+    }
+    footer {
+        margin-top: 0px;
+        padding-top: 50px;
+    } 
 }
-@media (max-width: 1199px) {
+@media  (max-width: 2000px) {
     .container4 {
         width: 90%;
     }
     h1 ul li a {
         width: 80%;
-        }
+    }
     h2 h3 p {
         width: 80%;
+    }
+    main {
+        margin-bottom: 100px;
+    }
+    footer {
+        margin-top: 0px;
+        padding-top: 50px;
+    } 
+}
+@media (max-width: 1199px) {
+    .container4 {
+        width: 80%;
+    }
+    
+    h1 ul li a {
+        width: 80%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    main {
+        margin-bottom: 100px;
     }
     footer {
         margin-top: 0px;
@@ -96,6 +134,9 @@ button:hover span:nth-child(4) {top: 0;}
     h2 h3 p {
         width: 80%;
     }
+    main {
+        margin-bottom: 100px;
+    }
     footer {
     margin-top: 0px;
     padding-top: 50px;
@@ -112,9 +153,9 @@ button:hover span:nth-child(4) {top: 0;}
     h2 h3 p {
         width: 80%;
     }
-    footer {
-    margin-top: 50px;
-    } 
+    main {
+        margin-bottom: 100px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -123,7 +164,7 @@ button:hover span:nth-child(4) {top: 0;}
     }
     .container4 {
         width: 80%;
-    }
+        }
     nav ul li a {
         width: 60%;
     }
@@ -140,7 +181,7 @@ button:hover span:nth-child(4) {top: 0;}
     }
     footer {
         width: 99%;
-        .footcont.piecont {
+        &.footcont.piecont {
             width: 100%;
             font-size: size(1);
         }

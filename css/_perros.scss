@@ -56,13 +56,16 @@ body.perro {
 /* -- Pagina perros mediaquery --*/
 
 @media (max-width: 5000px) {
-main h2.perrotitulo {
+    .container2 {
+        width: 80%;
+    }
+    .firulais {
+        width: 90%;
+    }
+    main h2.perrotitulo {
         font-size: size(5);
         text-align: center;
         margin-bottom: 50px;
-    }
-main {
-        margin-bottom: 100px;
     }
 }
 
@@ -78,10 +81,6 @@ main {
         width: 90%;
         margin: 10px;
     }
-    .card {
-        width: 350px;
-        height: 450px;
-    }
     .card-title {
         font-size: size(4);
     }
@@ -92,9 +91,6 @@ main {
         font-size: size(5);
         text-align: center;
         margin-bottom: 50px;
-    }
-    main {
-        margin-bottom: 100px;
     }
     footer {
     margin-top: 0px;
@@ -107,18 +103,14 @@ main {
         width: 90%;
     }
     h1 ul li a {
-            width: 80%;
-        }
+        width: 80%;
+    }
     h2 h3 p {
         width: 80%;
     }
     .firulais {
         width: 90%;
         margin: 10px;
-    }
-    .card {
-        width: 250px;
-        height: 350px;
     }
     .card-title {
         font-size: size(3);
@@ -129,13 +121,6 @@ main {
     main h2.perrotitulo {
         font-size: size(4);
         text-align: center;
-    }
-    main {
-        margin-bottom: 100px;
-    }
-    .card {
-        width: 300px;
-        height: 400px;
     }
     footer {
     margin-top: 0px;
@@ -157,10 +142,6 @@ main {
         width: 90%;
         margin: 10px;
     }
-    .card {
-        width: 250px;
-        height: 350px;
-    }
     .card-title {
         font-size: size(3);
     }
@@ -170,13 +151,6 @@ main {
     main h2.perrotitulo {
         font-size: size(3);
         text-align: center;
-    }
-    main {
-        margin-bottom: 100px;
-    }
-    .card {
-        width: 250px;
-        height: 350px;
     }
     footer {
     margin-top: 0px;
@@ -188,19 +162,15 @@ main {
     .container2 {
         width: 90%;
     }
+    .firulais {
+        width: 90%;
+        margin: 10px;
+    }
     h1 ul li a {
         width: 60%;
     }
     h2 h3 p {
         width: 80%;
-    }
-    .firulais {
-        width: 90%;
-        margin: 10px;
-    }
-    .card {
-        width: 250px;
-        height: 350px;
     }
     .card-title {
         font-size: size(3);
@@ -212,17 +182,18 @@ main {
         font-size: size(2);
         text-align: center;
     }
-    main {
-        margin-bottom: 100px;
-    }
     footer {
     margin-top: 50px;
-} 
+    } 
 }
 
 @media (max-width: 575.98px) {
     .container2 {
         width: 80%;
+    }
+    .firulais {
+        width: 80%;
+        margin: 10px;
     }
     nav ul li a {
         width: 90%;
@@ -231,14 +202,6 @@ main {
     }
     h2 h3 p {
         width: 80%;
-    }
-    .firulais {
-        width: 80%;
-        margin: 10px;
-    }
-    .card {
-        width: 200px;
-        height: 200px;
     }
     .card-title {
         font-size: size(2);
@@ -255,10 +218,9 @@ main {
     }
     footer {
         width: 80%;
+            &.footpe.piepe {
+            width: 100%;
+            font-size: size(1);
+        }
     }
-    .footpe.piepe {
-        width: 100%;
-        font-size: size(1);
-    }
-    
 }

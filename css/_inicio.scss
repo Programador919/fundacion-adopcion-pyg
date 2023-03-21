@@ -42,7 +42,7 @@ h3 {
     background-size: 100% 100%;
 }
 
-@media (min-width: 1200px) and (max-width: 3000px){
+@media (min-width: 2000px) and (max-width: 5000px){
     .container {
         width: 90%;
     }
@@ -52,7 +52,7 @@ h3 {
     
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 2000px) {
     .container {
         width: 90%;
     }
@@ -65,7 +65,20 @@ h3 {
     .btn-cta {
         margin-bottom: 80px;
     }
-    
+}
+@media (max-width: 1199px) {
+    .container {
+        width: 80%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 90%;
+    }
+    .btn-cta {
+        margin-bottom: 80px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -81,8 +94,6 @@ h3 {
     .btn-cta {
         margin-bottom: 80px;
     }
-    
-    
 }
 
 @media (max-width: 767.98px) {
@@ -109,7 +120,6 @@ h3 {
     text-align: left;
     width: 100%;
     }
-
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -117,20 +127,19 @@ h3 {
     }
 
     .col-30 {
-        h2 {
+        & h2 {
             font-size: size(2);
             text-align: justify;
         }
-        h3 {
+        & h3 {
             font-size: size(2);
             text-align: justify;
         }
-        p {
+        & p {
             font-size: size(2);
             text-align: justify;
         }
     }
-    
     #imginicio {
         width: 150%;
         margin-bottom: 50px;
@@ -138,7 +147,7 @@ h3 {
         
     footer.pie  {
         margin-top: 0px;
-            h4{
+            & h4{
                 width: 100%;
                 font-size: size(2);
             }
