@@ -1,0 +1,148 @@
+*{
+    @include reset-pm();
+    box-sizing: border-box;
+}
+
+body.contacto {background: #6C7C59;}
+
+.container4 {
+    background-color: white;
+    margin: 80px auto;
+    width: 1700px;
+    padding: 50px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 1.0);
+    background: #800080;
+    background-size: 100% 100%;
+}
+
+button {
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #350642;
+    color: #dcc2e4;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+
+button:hover {color: #fff;}
+button span {
+    position: absolute;
+    background: #fff;
+    transition: .5s;
+}
+button span:nth-child(1) {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+button span:nth-child(2) {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+button span:nth-child(3) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+button span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+button:hover span:nth-child(1) {left: 0;}
+button:hover span:nth-child(2) {right: 0;}
+button:hover span:nth-child(3) {bottom: 0;}
+button:hover span:nth-child(4) {top: 0;}
+
+/* -- Pagina contacto mediaquery --*/
+
+@media (min-width: 2000px) and (max-width: 5000px){
+    .container4 {
+        width: 90%;
+    }
+}
+@media (max-width: 1199px) {
+    .container4 {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 80%;
+        }
+    h2 h3 p {
+        width: 80%;
+    }
+    footer {
+        margin-top: 0px;
+        padding-top: 50px;
+    } 
+}
+
+@media (max-width: 991.98px) {
+    .container4 {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    footer {
+    margin-top: 0px;
+    padding-top: 50px;
+    } 
+}
+
+@media (max-width: 767.98px) {
+    .container4 {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    footer {
+    margin-top: 50px;
+    } 
+}
+
+@media (max-width: 575.98px) {
+    body.contacto {
+        width: 99%;
+    }
+    .container4 {
+        width: 80%;
+    }
+    nav ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 40%;
+    }
+    .conta {
+        font-size: size(3);
+    }
+    .contacto1 .col-4 {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        width: 99%;
+        .footcont.piecont {
+            width: 100%;
+            font-size: size(1);
+        }
+    }
+}

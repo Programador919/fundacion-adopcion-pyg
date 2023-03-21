@@ -1,0 +1,264 @@
+*{
+    @include reset-pm();
+    box-sizing: border-box;
+}
+
+body.perro {
+    background-image: url('../img/fondos-para-paginas-web16.jpg');
+    
+}
+
+.container2 {
+    background-color: white;
+    margin: 80px auto;
+    width: 1700px;
+    padding: 50px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 1.0);
+
+    background-image: radial-gradient(circle at 56.37% 51.71%, #ecffd4 0, #e0ffd4 12.5%, #cfffd0 25%, #b7f6c7 37.5%, #99e7bb 50%, #78d8b1 62.5%, #59cdad 75%, #3bc6ae 87.5%, #15c3b3 100%);
+    background-size: 100% 100%;
+}
+
+
+.firulais {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    grid-gap: 80px;
+    margin: 40px;
+    margin-right: 80px;
+}
+
+.card {
+    border: 3px solid black; 
+    border-radius: 7px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all 400ms ease;
+    color: rgb(10, 3, 3);
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+    height: 500px;
+}
+
+.card:hover {
+    box-shadow: 20px 20px 20px rgba(47, 24, 59, 0.66);
+    transform: translateY(-5%);
+}
+
+.card-body:hover {
+    background-color: rgb(117, 199, 199);
+    color: #fff;
+}
+/* -- Pagina perros mediaquery --*/
+
+@media (max-width: 5000px) {
+main h2.perrotitulo {
+        font-size: size(5);
+        text-align: center;
+        margin-bottom: 50px;
+    }
+main {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 2000px){
+    .container2 {
+        width: 90%;
+    }
+    main h2.perrotitulo {
+        font-size: size(5);
+        text-align: center;
+    }
+    .firulais {
+        width: 90%;
+        margin: 10px;
+    }
+    .card {
+        width: 350px;
+        height: 450px;
+    }
+    .card-title {
+        font-size: size(4);
+    }
+    .card-text {
+        font-size: size(3);
+    }
+    main h2.perrotitulo {
+        font-size: size(5);
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    main {
+        margin-bottom: 100px;
+    }
+    footer {
+    margin-top: 0px;
+    padding-top: 50px;
+    } 
+}
+
+@media (max-width: 1199px) {
+    .container2 {
+        width: 90%;
+    }
+    h1 ul li a {
+            width: 80%;
+        }
+    h2 h3 p {
+        width: 80%;
+    }
+    .firulais {
+        width: 90%;
+        margin: 10px;
+    }
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+    .card-title {
+        font-size: size(3);
+    }
+    .card-text {
+        font-size: size(2);
+    }
+    main h2.perrotitulo {
+        font-size: size(4);
+        text-align: center;
+    }
+    main {
+        margin-bottom: 100px;
+    }
+    .card {
+        width: 300px;
+        height: 400px;
+    }
+    footer {
+    margin-top: 0px;
+    padding-top: 50px;
+    } 
+}
+
+@media (max-width: 991.98px) {
+    .container2 {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    .firulais {
+        width: 90%;
+        margin: 10px;
+    }
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+    .card-title {
+        font-size: size(3);
+    }
+    .card-text {
+        font-size: size(2);
+    }
+    main h2.perrotitulo {
+        font-size: size(3);
+        text-align: center;
+    }
+    main {
+        margin-bottom: 100px;
+    }
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+    footer {
+    margin-top: 0px;
+    padding-top: 50px;
+    } 
+}
+
+@media (max-width: 767.98px) {
+    .container2 {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    .firulais {
+        width: 90%;
+        margin: 10px;
+    }
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+    .card-title {
+        font-size: size(3);
+    }
+    .card-text {
+        font-size: size(2);
+    }
+    main h2.perrotitulo {
+        font-size: size(2);
+        text-align: center;
+    }
+    main {
+        margin-bottom: 100px;
+    }
+    footer {
+    margin-top: 50px;
+} 
+}
+
+@media (max-width: 575.98px) {
+    .container2 {
+        width: 80%;
+    }
+    nav ul li a {
+        width: 90%;
+        font-size: size(1);
+        text-align: justify;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    .firulais {
+        width: 80%;
+        margin: 10px;
+    }
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+    .card-title {
+        font-size: size(2);
+    }
+    .card-text {
+        font-size: size(1);
+    }
+    main h2.perrotitulo {
+        font-size: size(2);
+        text-align: center;
+    }
+    main {
+        margin-bottom: 100px;
+    }
+    footer {
+        width: 80%;
+    }
+    .footpe.piepe {
+        width: 100%;
+        font-size: size(1);
+    }
+    
+}

@@ -1,0 +1,173 @@
+*{
+    @include reset-pm();
+    box-sizing: border-box;
+}
+
+body.nosotros {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('../img/fondos-para-paginas-web10.jpg');
+    
+}
+
+.container1 {
+    background-color: white;
+    margin: 80px auto;
+    width: 1700px;
+    padding: 50px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 1.0);
+
+    background-image: url('../img/fondos-para-paginas-web12.jpg');
+    background-size: 100% 100%;
+}
+
+.nos {
+    color: $terciary-color;
+}
+
+
+.nosotros1{
+    background-image: url("../img/img-nos1.jpg");
+    background-size: cover;
+    width: 100%;
+    margin: 30px 0px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ". texto";
+}
+
+.parrafo1 {
+    grid-area: texto;
+    font-size: 30px;
+    text-align: justify;
+    border-radius: 10% 0% 0% 0%;
+    
+    background-color: rgba(122, 162, 58, 0.133);
+    padding: 30px 40px;
+}
+
+.parr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: size(5);
+    color: $terciary-color;
+    
+}
+
+.subt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: size(4);
+    color: white;
+}
+.nos11 {
+    border-bottom: 3px solid rgb(1, 73, 68);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* -- Pagina nosotros mediaquery --*/
+
+@media (min-width: 1200px) and (max-width: 5000px){
+    .container1 {
+        width: 90%;
+    }
+    footer {
+    margin-top: 0px;
+    padding-top: 50px;
+    } 
+}
+
+@media (max-width: 1199px) {
+    .container1 {
+        width: 90%;
+    }
+    h1 ul li a {
+            width: 80%;
+        }
+    h2 h3 p {
+        width: 80%;
+    }
+    footer {
+    margin-top: 0px;
+    padding-top: 50px;
+    } 
+}
+
+@media (max-width: 991.98px) {
+    .container1 {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    footer {
+    margin-top: 0px;
+    padding-top: 50px;
+    } 
+}
+
+@media (max-width: 767.98px) {
+    .container1 {
+        width: 80%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    footer {
+    margin-top: 50px;
+} 
+}
+
+@media (max-width: 575.98px) {
+    .container1 {
+        width: 80%;
+    }
+    nav ul li a {
+        width: 90%;
+        font-size: size(1);
+        text-align: justify;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    .nos {
+        width: 50%;
+    }
+    .logoimgnos {
+        width: 130%;
+    }
+    .nosotros1 .parrafo1 {
+        width: 100%;
+    }
+    .nos.logoimgnos {
+        width: 100px;
+    }
+    .parr {
+        width: 100%;
+        font-size: 15px;
+        }
+    .subt {
+        width: 40%;
+        font-size: 10px;
+        text-align: left;
+    }
+    .nos11 {
+        width: 40%;
+        font-size: 12px;
+    }
+    footer.nosot {
+        margin-top: 50px;
+        .noso.pienos {
+            width: 100%;
+            font-size: size(2);
+        }
+    } 
+}

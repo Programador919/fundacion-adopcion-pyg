@@ -1,0 +1,36 @@
+@import 'config';
+@import 'utils';
+@import 'button';
+
+a {
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+ul {
+    @include reset-pm();
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    li {
+        a {
+            @include btn($background-color: $terciary-color, 
+            $color: $fondo-color,  $bold: 'true');
+
+            &:hover {
+                @include btn($secondary-color, $terciary-color, 'false');
+                box-shadow: $box-shadow;
+            }
+        } 
+    }
+}
+
+header {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

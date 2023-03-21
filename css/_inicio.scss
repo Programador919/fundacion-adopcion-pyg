@@ -1,0 +1,147 @@
+*{
+    @include reset-pm();
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/fondos-para-paginas-web411.jpg');
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: size(5);
+    color: $terciary-color;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: size(4);
+    color: rgb(132, 2, 2);
+}
+
+.parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: size(3);
+    color: #dcd7d7;
+    padding: 10px 0px;
+}
+
+.container {
+    background-color: white;
+    margin: 80px auto;
+    width: 1700px;
+    padding: 50px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 1.0);
+
+    background-image: url('../img/fondos-para-paginas-web5.png');
+    background-size: 100% 100%;
+}
+
+@media (min-width: 1200px) and (max-width: 3000px){
+    .container {
+        width: 90%;
+    }
+    .btn-cta {
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 80%;
+    }
+    h2 h3 p {
+        width: 80%;
+    }
+    .btn-cta {
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        width: 90%;
+    }
+    h1 ul li a {
+        width: 60%;
+    }
+    h2 h3 p {
+        width: 90%;
+    }
+    .btn-cta {
+        margin-bottom: 80px;
+    }
+    
+    
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 ul li a {
+        width: 100%;
+    }
+    h2 h3 p {
+        width: 100%;
+    }
+    .btn-cta {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        width: 90%;
+    }
+    nav h1 ul li a {
+    text-align: left;
+    width: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .col-30 {
+        h2 {
+            font-size: size(2);
+            text-align: justify;
+        }
+        h3 {
+            font-size: size(2);
+            text-align: justify;
+        }
+        p {
+            font-size: size(2);
+            text-align: justify;
+        }
+    }
+    
+    #imginicio {
+        width: 150%;
+        margin-bottom: 50px;
+    }
+        
+    footer.pie  {
+        margin-top: 0px;
+            h4{
+                width: 100%;
+                font-size: size(2);
+            }
+    } 
+    
+}
