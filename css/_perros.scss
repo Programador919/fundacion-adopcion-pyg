@@ -69,38 +69,10 @@ body.perro {
     }
 }
 
-@media (max-width: 2000px){
-    .container2 {
-        width: 90%;
-    }
-    main h2.perrotitulo {
-        font-size: size(5);
-        text-align: center;
-    }
-    .firulais {
-        width: 90%;
-        margin: 10px;
-    }
-    .card-title {
-        font-size: size(4);
-    }
-    .card-text {
-        font-size: size(3);
-    }
-    main h2.perrotitulo {
-        font-size: size(5);
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    footer {
-    margin-top: 0px;
-    padding-top: 50px;
-    } 
-}
 
-@media (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 5000px) {
     .container2 {
-        width: 90%;
+        width: 80%;
     }
     h1 ul li a {
         width: 80%;

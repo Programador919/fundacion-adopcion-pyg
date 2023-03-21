@@ -737,8 +737,8 @@ body.nosotros {
 
 .container1 {
   background-color: white;
-  margin: 80px auto;
-  width: 1700px;
+  margin: 100px auto;
+  width: 1500px;
   padding: 50px;
   box-shadow: 0 0 20px 5px rgb(0, 0, 0);
   background-image: url("../img/fondos-para-paginas-web12.jpg");
@@ -965,37 +965,9 @@ body.perro {
     margin-bottom: 50px;
   }
 }
-@media (max-width: 2000px) {
+@media (min-width: 1200px) and (max-width: 5000px) {
   .container2 {
-    width: 90%;
-  }
-  main h2.perrotitulo {
-    font-size: 40px;
-    text-align: center;
-  }
-  .firulais {
-    width: 90%;
-    margin: 10px;
-  }
-  .card-title {
-    font-size: 32px;
-  }
-  .card-text {
-    font-size: 24px;
-  }
-  main h2.perrotitulo {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  footer {
-    margin-top: 0px;
-    padding-top: 50px;
-  }
-}
-@media (max-width: 1199px) {
-  .container2 {
-    width: 90%;
+    width: 80%;
   }
   h1 ul li a {
     width: 80%;
@@ -1171,24 +1143,7 @@ body.gato {
 }
 
 /* -- Pagina gatos mediaquery --*/
-@media (min-width: 2000px) and (max-width: 5000px) {
-  .container3 {
-    width: 80%;
-  }
-  .michis {
-    width: 90%;
-  }
-  main h2.gatotitulo {
-    margin-bottom: 80px;
-    font-size: 32px;
-    text-align: center;
-  }
-  .card {
-    width: 400px;
-    height: 480px;
-  }
-}
-@media (max-width: 2000px) {
+@media (min-width: 1200px) and (max-width: 5000px) {
   .container3 {
     width: 80%;
   }
