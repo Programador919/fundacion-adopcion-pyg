@@ -937,8 +937,8 @@ body.perro {
   transition: all 400ms ease;
   color: rgb(10, 3, 3);
   font-family: "Courier New", Courier, monospace;
-  width: 400px;
-  height: 500px;
+  width: 300px;
+  height: 400px;
 }
 
 .card:hover {
@@ -967,17 +967,17 @@ body.perro {
 }
 @media (min-width: 1200px) and (max-width: 5000px) {
   .container2 {
-    width: 80%;
+    width: 70%;
   }
   h1 ul li a {
-    width: 80%;
+    width: 70%;
   }
   h2 h3 p {
-    width: 80%;
+    width: 70%;
   }
   .firulais {
     width: 90%;
-    margin: 10px;
+    margin: 20px;
   }
   .card-title {
     font-size: 24px;
@@ -1115,7 +1115,6 @@ body.gato {
   justify-content: center;
   grid-gap: 80px;
   margin: 40px;
-  margin-right: 80px;
 }
 
 .card {
@@ -1128,8 +1127,8 @@ body.gato {
   transition: all 400ms ease;
   color: rgb(10, 3, 3);
   font-family: "Courier New", Courier, monospace;
-  width: 400px;
-  height: 500px;
+  width: 300px;
+  height: 400px;
 }
 
 .card:hover {
@@ -1145,17 +1144,17 @@ body.gato {
 /* -- Pagina gatos mediaquery --*/
 @media (min-width: 1200px) and (max-width: 5000px) {
   .container3 {
-    width: 80%;
+    width: 70%;
   }
   h1 ul li a {
-    width: 80%;
+    width: 70%;
   }
   h2 h3 p {
-    width: 80%;
+    width: 70%;
   }
   .michis {
     width: 90%;
-    margin: 10px;
+    margin: 20px;
   }
   main h2.gatotitulo {
     margin-bottom: 80px;
@@ -1375,10 +1374,10 @@ button:hover span:nth-child(4) {
     width: 70%;
   }
   h1 ul li a {
-    width: 80%;
+    width: 70%;
   }
   h2 h3 p {
-    width: 80%;
+    width: 70%;
   }
   main {
     margin-bottom: 100px;
